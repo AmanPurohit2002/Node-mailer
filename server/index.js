@@ -4,7 +4,7 @@ require("dotenv").config();
 const connnectToDb = require("./config/db");
 const routes = require("./routes/route");
 
-// require('./cron-task/cron');
+require('./cron-task/cron');
 
 const app = express();
 
